@@ -1,1 +1,1 @@
-# Pytest-Decorat-rleri
+# Pytest-Decoratorleri
