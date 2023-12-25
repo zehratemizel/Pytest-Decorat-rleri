@@ -17,9 +17,9 @@ def my_fixture():
     return data
 
 def test_example(my_fixture):
-    assert my_fixture == "Bu bir örnek veridir"
+    assert my_fixture == "Bu bir örnek veridir" ```
 
-#@pytest.mark.parametrize
+### @pytest.mark.parametrize
 @pytest.mark.parametrize dekoratörü, aynı testi farklı parametrelerle çalıştırmak için kullanılır. Örnek kullanım:
 
 import pytest
