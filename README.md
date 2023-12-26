@@ -37,6 +37,7 @@ Parametreli testler, geliştiricinin aynı testi farklı değerler üzerinde tek
 
 
 **@pytest.mark.skip**  ve **@pytest.mark.skipif**
+
 Bu dekoratörler, bir testi atlamak, koşullu olarak atlamak veya geçici olarak devre dışı bırakmak için kullanılır. Örnek kullanım:
 
     import pytest
@@ -61,7 +62,9 @@ Python sürümüne bağlı olarak bir testin atlanması gerektiğinde `@pytest.m
 Bu örnek, `sys.version_info` kullanarak Python sürümünü kontrol eder. Eğer Python sürümü 3.6'dan küçükse, `test_functionality` fonksiyonu çalıştırılmaz ve atlanır.
 
 
-**@pytest.mark.xfail** pytest içinde kullanılan bir işaretleyicidir ve "başarısız olması beklenen test" anlamına gelir. Bu işaretleyici, bir testin bilerek veya geçici bir süre için başarısız olmasını beklediğiniz durumlarda kullanılır.
+**@pytest.mark.xfail** 
+
+pytest içinde kullanılan bir işaretleyicidir ve "başarısız olması beklenen test" anlamına gelir. Bu işaretleyici, bir testin bilerek veya geçici bir süre için başarısız olmasını beklediğiniz durumlarda kullanılır.
 
 Bu işaretleyici, testin başarısız olması durumunda testin hala çalışmasını ve sonucun rapor edilmesini sağlar, ancak bu başarısızlığın bir hata olarak değil, beklenen bir durum olarak işaretlenmesini sağlar.
 
