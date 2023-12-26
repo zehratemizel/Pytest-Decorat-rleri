@@ -64,7 +64,7 @@ Bu örnek, `sys.version_info` kullanarak Python sürümünü kontrol eder. Eğer
 
 **@pytest.mark.xfail** 
 
-pytest içinde kullanılan bir işaretleyicidir ve "başarısız olması beklenen test" anlamına gelir. Bu işaretleyici, bir testin bilerek veya geçici bir süre için başarısız olmasını beklediğiniz durumlarda kullanılır.
+Pytest içinde kullanılan bir işaretleyicidir ve "başarısız olması beklenen test" anlamına gelir. Bu işaretleyici, bir testin bilerek veya geçici bir süre için başarısız olmasını beklediğiniz durumlarda kullanılır.
 
 Bu işaretleyici, testin başarısız olması durumunda testin hala çalışmasını ve sonucun rapor edilmesini sağlar, ancak bu başarısızlığın bir hata olarak değil, beklenen bir durum olarak işaretlenmesini sağlar.
 
