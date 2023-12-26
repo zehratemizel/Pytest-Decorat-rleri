@@ -21,6 +21,7 @@ Dekoratörler, bir işlevin veya sınıfın davranışını değiştirmek için 
         assert my_fixture == "Bu bir örnek veridir" 
 
 **@pytest.mark.parametrize**
+
 Parametreli testler, geliştiricinin aynı testi farklı değerler üzerinde tekrar tekrar çalıştırmasını sağlar. `@pytest.mark.parametrize` dekoratörü, aynı testi farklı parametrelerle çalıştırmak için kullanılır. Örnek kullanım:
 
     import pytest
